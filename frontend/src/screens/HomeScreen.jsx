@@ -11,11 +11,11 @@ const HomeScreen = () => {
   
 
 
-         <h1 h1>LUNAR BANKING A SITE BUILT WITH 
+         <h1>LUNAR BANKING A SITE BUILT WITH 
     REACT/ REDUX/ NODE / EXPRESS / MONGODB / MONGOOSE / JSON WEB TOKEN </h1>
 
 
-              <div class="spinner-border text-primary" role="status">
+              <div className="spinner-border text-primary" role="status">
                 <span className="visually-hidden">Loading...</span>
               </div>
               <div className="spinner-border text-secondary" role="status">
