@@ -1,8 +1,9 @@
-import jwt from 'jsonwebtoken'
+const jwt = require("jsonwebtoken");
 
-// generate token that expires in 12 hours
-const generateToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: '12h' })
-}
+const generateUsersToken = (id, email) => {
+  return jwt.sign({ id, email }, process.env.JWT_SECRET);
+};
 
-export default generateToken
+module.exports = {
+  generateUsersToken,
+};
