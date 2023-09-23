@@ -1,7 +1,7 @@
 {
-  "name": "mern-auth-reduxtoolkit-",
+  "name": "LunarBank-",
   "version": "1.0.0",
-  "description": "This repository is for the implementation of authentication using mongoose to interact with the Mongodb, express React, Redux toolkit and NodeJs.",
+  "description": "This is a full stack mern app with redux, mongodb react json web tokens s.",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,8 @@
     "url": ""
   },
   "keywords": [],
-  "author": "",
-  "license": "",
+  "author": "RobertSloan",
+  "license": "MIT",
   "bugs": {
     "url": ""
   },
