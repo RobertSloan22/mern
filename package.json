@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/uimarshall/mern-auth-reduxtoolkit-.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "",
+  "author": "Marshall Akpan",
+  "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/uimarshall/mern-auth-reduxtoolkit-/issues"
   },
-  "homepage": "h",
+  "homepage": "https://github.com/uimarshall/mern-auth-reduxtoolkit-#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
