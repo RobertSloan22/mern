@@ -48,16 +48,16 @@ const Header = () => {
         <NavLink to='/banking'>BANKING</NavLink>
         <NavLink to='/Credit'>CREDIT</NavLink>
         <NavLink to='/business'>BUSINESS</NavLink>
-              <ul class="nav nav-pills">
+              <ul className="nav nav-pills">
 
-                <div class="spinner-grow text-primary" role="status">
+                <div className="spinner-grow text-primary" role="status">
 
                   <span className="visually-hidden">Loading...</span> 
 
                 </div>
 
 
-        <li class="nav-item">
+        <li className="nav-item">
     <NavLink to='/'>HOME</NavLink>
         </li>
       </ul>
