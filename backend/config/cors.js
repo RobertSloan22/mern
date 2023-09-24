@@ -21,6 +21,5 @@ const corsProOptions = {
 };
 
 module.exports = {
-  corsDevOptions,
   corsProOptions,
 };
