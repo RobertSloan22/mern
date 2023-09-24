@@ -3,7 +3,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit'
 
 const backendURL =
   process.env.NODE_ENV !== 'production'
-    ? 'http://127.0.0.1:5000'
+    ? 'http://localhost:3000'
     : import.meta.env.VITE_SERVER_URL
 
 export const userLogin = createAsyncThunk(
