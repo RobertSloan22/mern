@@ -4,6 +4,9 @@
   "type": "module",
   "description": "User Authentication workflow made with the MERN stack",
   "main": "index.js",
+    "engines": {
+    "node": ">=16.17.1"
+  },
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
@@ -13,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Chinwike1/redux-user-auth.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Chinwike1/redux-user-auth/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/Chinwike1/redux-user-auth#readme",
+  "homepage": "",
   "devDependencies": {
     "concurrently": "^7.2.1",
     "nodemon": "^2.0.16"
